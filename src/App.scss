@@ -61,3 +61,80 @@ input[type=number]::-webkit-inner-spin-button {
   padding: 8px;
   box-shadow: 0 0 14px -4px rgba(0, 0, 0, 0.2705882353)
 }
+.filter-btn:hover{
+  background-color: #f4f4f5;
+  border-radius: 1rem;
+}
+.font-size-12{
+  font-size: 12px;
+}
+.font-size-14{
+  font-size: 14px;
+}
+.font-size-14-16{
+  font-size: 16px;
+  @media (max-width: 720px) {
+    font-size: 14px;
+  }
+}
+.font-size-12-14{
+  font-size: 14px;
+  @media (max-width: 720px) {
+    font-size: 12px;
+  }
+}
+.heart-productCard{
+  position: absolute;
+  left: 75%;
+  @media (min-width: 720px) {
+    left: 85%;
+  }
+}
+.no-inherit{
+  color: inherit;
+    font-size: inherit;
+    text-decoration: inherit;
+}
+.hr-strip{
+  background-color: #f4f4f5;
+  height: 10px;
+}
+.card-title{
+  color: #3e4152;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: -6px;
+    line-height: 1.33;
+}
+.pincode-box{
+  font-family: inherit;
+  position: relative;
+  padding: 10px;
+  width: 100%;
+  height: 44px;
+  font-size: 14px;
+  border: 1px solid #bfc0c6;
+  margin: 12px 0;
+}
+.pincode-box > input{
+  border: none;
+  width: 100%;
+}
+.pincode-btn{
+  background-color: #fff;
+  border: none;
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  font-size: 13px;
+  font-weight: 700;
+}
+.delivery-available{
+  color: #7e808c;
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+.modal-content{
+  position: fixed;
+  bottom: 0;
+}
